@@ -1,0 +1,129 @@
+/* Fonts */
+@font-face {
+    font-family: 'eb_garamond12_italic';
+    src: url('fonts/ebgaramond12-italic-webfont.woff2') format('woff2'),
+         url('fonts/ebgaramond12-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'eb_garamond12_regular';
+    src: url('fonts/ebgaramond12-regular-webfont.woff2') format('woff2'),
+         url('fonts/ebgaramond12-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rosemary_romanregular';
+    src: url('fonts/rosemary_roman-webfont.woff2') format('woff2'),
+         url('fonts/rosemary_roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face 
+{
+    font-family: 'Wurmics-Bravado';
+      src:  url('fonts/Wurmics-Bravado.ttf.woff') format('woff'),
+      url('fonts/Wurmics-Bravado.ttf.svg#Wurmics-Bravado') format('svg'),
+      url('fonts/Wurmics-Bravado.ttf.eot'),
+      url('fonts/Wurmics-Bravado.eot?#iefix') format('embedded-opentype'); 
+      font-weight: normal;
+      font-style: normal;
+}
+
+/* Aspect général de la fiche */
+.custom-system-actor
+{
+    /* Valeurs d'origine */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: -8px;
+    padding: 8px;
+    overflow: scroll;
+
+    /* Modification  */
+    background-color: white;
+    color: black;
+    font-family: 'eb_garamond12_regular','Times New Roman', Times, serif;
+
+    /*Logo en haut à gauche et footer en bas à droite */
+    background-image: url('images/logo_wurm.png'), url('images/footer_wurm.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    background-size: 140px, 180px;
+    background-attachment: local, local;    
+}
+
+/* Aspect de la partie header */
+.custom-system-actor header.sheet-header
+{
+    display: flex;
+    flex-direction: column !important;
+    padding: 0px;
+}
+
+/* Champs du header */
+.sheet .custom-system-actor header.sheet-header .header-fields {
+    width: 100%;
+}
+
+/* Nom du PJ : écrit en rosemary gras */
+.custom-system-actor input[type=text][name="name"]
+{
+    background-color:white;
+    color: black;
+    font-family: 'rosemary_romanregular',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Titres : fond noir, écriture blanche*/
+h3.custom-system-label-root
+{
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px  10px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Les champs à remplir : écrits en Wurmics*/
+.custom-system-actor input[type=text], select   
+{
+    font-family: 'Wurmics-Bravado', Arial, Helvetica, sans-serif;
+}
+
+.custom-system-actor .editor-content
+{
+    font-family: 'Wurmics-Bravado', Arial, Helvetica, sans-serif;
+}
+
+.custom-system-actor .content-link
+{
+    font-family: 'Wurmics-Bravado', Arial, Helvetica, sans-serif;
+}
+
+/* Courage, Generosité et Savoir : en italique */
+.custom-system-actor label[for="courage"], label[for="generosite"], label[for="savoir"]
+{
+    font-family: 'eb_garamond12_italic','Times New Roman', Times, serif;
+}
+
+
+/* Peuple et Prestige : en gras */
+.custom-system-actor label[for="peuple"]
+{
+    font-weight: bold;
+}
+
+.prestige.custom-system-field.custom-system-field-root.custom-system-field-medium
+{
+    font-weight: bold;
+}
