@@ -8,7 +8,7 @@
       "flags": {}
     }
   ],
-  "version": "1.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -18,6 +18,6 @@
     "css/wurm/wurm-character-sheet.css"
   ],
   "url": "https://github.com/tissema/wurm-csb-css",
-  "download": "",
-  "manifest": "" 
+  "download": "https://github.com/tissema/wurm-csb-css/releases/download/1.0.1/wurm-csb-css.zip",
+  "manifest": "https://github.com/tissema/wurm-csb-css/releases/download/1.0.1/module.json" 
 }
