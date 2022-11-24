@@ -127,3 +127,19 @@ h3.custom-system-label-root
 {
     font-weight: bold;
 }
+
+/* Panneau avec les onglets */
+.custom-system-actor .character_template_tabbed_panel nav
+{
+    background-color: white;
+    border: none;
+}
+
+/* Liens des onglets */
+.custom-system-actor .character_template_tabbed_panel a
+{
+    font-family: 'eb_garamond12_regular','Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid black;
+}
