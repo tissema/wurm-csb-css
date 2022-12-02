@@ -54,11 +54,11 @@
     font-family: 'eb_garamond12_regular','Times New Roman', Times, serif;
 
     /*Logo en haut à gauche et footer en bas à droite */
-    background-image: url('images/logo_wurm.png'), url('images/footer_wurm.png');
+    /* background-image: url('images/logo_wurm.png'), url('images/footer_wurm.png');
     background-repeat: no-repeat, no-repeat;
     background-position: left top, right bottom;
     background-size: 140px, 180px;
-    background-attachment: local, local;    
+    background-attachment: local, local;     */
 }
 
 /* Aspect de la partie header */

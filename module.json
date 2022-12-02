@@ -1,14 +1,14 @@
 {
-  "name": "wurm-css",
-  "title": "Würm CSS",
-  "description": "Module pour personnaliser le css de la fiche Würm créée avec Custom System Builder.",
+  "name": "wurm-sheet-fr",
+  "title": "Würm Fiches",
+  "description": "Module pour créer le système Würm avec Custom System Builder.",
   "authors": [
     {
       "name": "Tissema",
       "flags": {}
     }
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -17,7 +17,7 @@
   "styles": [
     "css/wurm/wurm-character-sheet.css"
   ],
-  "url": "https://github.com/tissema/wurm-csb-css",
-  "download": "https://github.com/tissema/wurm-csb-css/releases/download/1.1.0/wurm-csb-css.zip",
-  "manifest": "https://github.com/tissema/wurm-csb-css/releases/download/1.1.0/module.json" 
+  "url": "https://github.com/tissema/wurm-csb-sheet",
+  "download": "https://github.com/tissema/wurm-csb-sheet/releases/download/1.1.1/wurm-csb-sheet.zip",
+  "manifest": "https://github.com/tissema/wurm-csb-sheet/releases/download/1.1.1/module.json" 
 }
