@@ -1,5 +1,5 @@
 {
-  "name": "wurm-sheet-fr",
+  "name": "wurm-csb-sheet-fr",
   "title": "Würm Fiches",
   "description": "Module pour créer le système Würm avec Custom System Builder.",
   "authors": [
@@ -8,16 +8,30 @@
       "flags": {}
     }
   ],
-  "version": "1.1.1",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
   },
   "systems": ["custom-system-builder"],
   "styles": [
-    "css/wurm/wurm-character-sheet.css"
+    "css/wurm-character-sheet.css"
   ],
-  "url": "https://github.com/tissema/wurm-csb-sheet",
-  "download": "https://github.com/tissema/wurm-csb-sheet/releases/download/1.1.1/wurm-csb-sheet.zip",
-  "manifest": "https://github.com/tissema/wurm-csb-sheet/releases/download/1.1.1/module.json" 
+  "packs": [
+    {
+      "name": "templatesacteurs",
+      "label": "_TEMPLATES_Acteurs",
+      "path": "./packs/templatesacteurs.db",
+      "type": "Actor"
+    },
+    {
+      "name": "templatesobjets",
+      "label": "_TEMPLATES_Objets",
+      "path": "./packs/templatesobjets.db",
+      "type": "Item"
+    }
+  ],
+  "url": "https://github.com/tissema/wurm-csb-sheet-fr",
+  "download": "https://github.com/tissema/wurm-csb-sheet-fr/releases/latest/1.2.0/wurm-csb-sheet-fr.zip",
+  "manifest": "https://github.com/tissema/wurm-csb-sheet-fr/releases/latest/download/module.json" 
 }
